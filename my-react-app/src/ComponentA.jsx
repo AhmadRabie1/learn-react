@@ -1,4 +1,4 @@
-
+import ComponentB from "./ComponentB";
 
 function ComponentA(){
 
@@ -6,6 +6,7 @@ function ComponentA(){
     return(
         <div className="box">
             <h1>ComponentA</h1>
+            <ComponentB/>
         </div>
     );
 }
